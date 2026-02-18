@@ -1,313 +1,342 @@
-# The-millennium-problem-solver
+<div align="center">
 
-Millennium Prize Problems Solver Platform
-Overview
-A sophisticated web application designed to help mathematicians and researchers tackle the seven Millennium Prize Problems—the most challenging unsolved problems in mathematics, each with a $1,000,000 prize from the Clay Mathematics Institute.
+<img src="https://img.shields.io/badge/Millennium-Prize%20Solver-6366f1?style=for-the-badge&logo=react&logoColor=white" />
+<img src="https://img.shields.io/badge/Prize%20Pool-$7%2C000%2C000-f59e0b?style=for-the-badge&logo=bitcoin&logoColor=white" />
+<img src="https://img.shields.io/badge/Problems-6%20Unsolved-ef4444?style=for-the-badge" />
+<img src="https://img.shields.io/badge/AI%20Powered-GPT--4-10b981?style=for-the-badge&logo=openai&logoColor=white" />
 
-🎯 Core Features
-Problem Exploration & Visualization
-Interactive Problem Browser - Browse all 6 unsolved Millennium Prize Problems with detailed information
+# 🏆 Millennium Prize Problems Solver Platform
 
-Visual Representations - Custom visualizations for each problem (P vs NP, Navier-Stokes, Riemann Hypothesis, Birch-Swinnerton-Dyer, Yang-Mills, Hodge Conjecture)
+### *The world's most advanced AI-powered research environment for tackling mathematics' greatest unsolved challenges*
 
-Formal Statements - Access rigorous mathematical problem definitions
+[![React](https://img.shields.io/badge/React-18.2-61DAFB?logo=react)](https://react.dev)
+[![Tailwind](https://img.shields.io/badge/Tailwind-CSS-06B6D4?logo=tailwindcss)](https://tailwindcss.com)
+[![Stripe](https://img.shields.io/badge/Stripe-Payments-635BFF?logo=stripe)](https://stripe.com)
+[![Base44](https://img.shields.io/badge/Base44-Platform-8B5CF6)](https://base44.com)
+[![Framer](https://img.shields.io/badge/Framer-Motion-FF0055?logo=framer)](https://framer.com)
 
-Difficulty Rankings - Problems ranked 1-6 by approachability
+</div>
 
-Prize Claim Guides - Downloadable guides explaining the official submission process to Clay Mathematics Institute
+---
 
-AI-Powered Workspace System
-Step-by-Step Proof Builder - Structured workspace for developing mathematical proofs with ordered logical steps
+## 📌 Table of Contents
 
-AI Step Validation - Real-time validation of mathematical reasoning using Large Language Models (Standard/Pro tiers)
+- [Overview](#overview)
+- [Core Features](#core-features)
+- [AI & Prompt Engineering](#ai--prompt-engineering)
+- [Subscription Tiers](#subscription-tiers)
+- [Tech Stack](#tech-stack)
+- [Data Models](#data-models)
+- [Business Intelligence](#business-intelligence)
+- [UI/UX Design System](#uiux-design-system)
 
-Quantitative Analysis - Converts qualitative statements into formal mathematical notation (Standard/Pro tiers)
+---
 
-AI Hint System - Socratic guidance when stuck on proof steps (Standard/Pro tiers)
+## 🌐 Overview
 
-Consistency Checking - Advanced cross-step contradiction detection (Pro tier only)
+A full-stack, AI-driven research platform built for mathematicians, PhD students, and prize-seekers working on the **7 Millennium Prize Problems** — the most celebrated unsolved problems in mathematics, each carrying a **$1,000,000 USD** prize from the Clay Mathematics Institute.
 
-Process Flow Analysis - Compares user approaches against standard textbook methods with Wikipedia learning resources
+> The platform combines structured proof-building tools, personalized AI tutoring, prerequisite tracking, and subscription-gated premium intelligence features into a single cohesive research environment.
 
-Research Conclusion Export - Generate comprehensive markdown reports of proof attempts with validation results
+---
 
-Personalized Learning System
-Knowledge Assessments - AI-generated quizzes to evaluate mathematical proficiency
+## 🎯 Core Features
 
-Adaptive Learning Paths - Custom study sequences based on assessment results
+---
 
-Progress Tracking - Monitor mastery levels across 100+ mathematical prerequisites
+### 🔭 Problem Exploration
 
-Prerequisite Tree Visualization - Interactive dependency graphs showing required knowledge
+- **Interactive Problem Browser** — Browse all 6 active unsolved Millennium Prize Problems with full metadata
 
-Recommended Resources - Curated papers, textbooks, and exercises for each prerequisite
+- **Custom Mathematical Visualizations** — Unique canvas-rendered, interactive visualizations per problem:
+  - 📊 P vs NP — Complexity landscape diagrams
+  - 🌊 Navier-Stokes — Fluid dynamics flow fields
+  - 📈 Riemann Hypothesis — Critical strip visualization
+  - 🔷 Birch-Swinnerton-Dyer — Elliptic curve + L-function plots
+  - ⚡ Yang-Mills — Lattice gauge field dynamics & energy spectrum
+  - 🔺 Hodge Conjecture — Algebraic cycle representations
 
-Study Time Estimates - Realistic hour estimates for mastering each concept
+- **Formal Statement Viewer** — Access rigorous mathematical definitions in structured format
 
-User Progress Management
-Personal Dashboard - Overview of learning progress, workspaces, and milestones
+- **Difficulty Ranking System** — Problems ranked 1–6 by approachability for structured learning
 
-Mastery Levels - Track 0-100% mastery across mathematical domains
+- **Prize Claim Guide Generator** — Downloadable Markdown guides with official Clay Mathematics Institute submission instructions
 
-Workspace History - Save and revisit multiple proof attempts per problem
+---
 
-Notes System - Document insights and breakthroughs throughout research
+### 🧪 AI-Powered Proof Workspace
 
-Status Tracking - Mark approaches as draft, promising, blocked, or abandoned
+- **Step-by-Step Proof Builder** — Structured, ordered logical step editor with justification fields per step
 
-💳 Subscription Tiers
-Free (Basic)
-Browse all problems
-View visualizations
-Track personal progress
-Limit: 5 workspace entries max
-No AI features
-Standard ($29.99/month)
-Unlimited workspace entries
-AI step validation
-AI hints & quantitative analysis
-Personalized learning paths
-Knowledge assessments
-Export research conclusions
-Full visualization suite
-Recommended papers
-Pro ($100/month)
-Everything in Standard
-Advanced consistency checking
-Automated contradiction detection
-Cross-step logical validation
-Deep process flow analysis
-Priority AI processing
-Advanced technique suggestions
-Research collaboration tools
-🛠️ Technical Stack
-Frontend
-React 18.2 - Component-based UI framework
+- **Real-Time AI Step Validation** — LLM analyzes each step for:
+  - Logical consistency with prior steps
+  - Correct use of theorems and definitions
+  - Gaps in reasoning
+  - Boundary condition checks
 
-TypeScript - Type-safe JavaScript
+- **Quantitative Formalization** — Converts informal/qualitative statements into rigorous mathematical notation with explicit quantifiers (∀, ∃)
 
-Tailwind CSS - Utility-first styling
+- **Socratic Hint System** — AI provides guided hints without revealing answers — asks targeted questions to redirect thinking
 
-Framer Motion - Animation library
+- **Cross-Step Contradiction Detection** *(Pro)* — Scans all workspace steps for logical contradictions across the full proof history
 
-Radix UI - Accessible component primitives
+- **Process Flow Analysis** — Compares user approach against standard textbook methods, identifies deviations, and generates Wikipedia learning links
 
-TanStack Query - Server state management
+- **Research Conclusion Export** — Generates comprehensive Markdown reports including:
+  - Executive summary
+  - Full validation results
+  - Process flow deviations
+  - Identified knowledge gaps
+  - Recommended next steps
 
-React Router - Client-side routing
+---
 
-Recharts - Data visualizations
+### 🎓 Personalized Learning System
 
-Three.js - 3D graphics (for visualizations)
+- **Knowledge Assessment Engine** — AI-generated quizzes tailored to each Millennium Problem's prerequisite map
 
-React Markdown - Render markdown content
+- **Adaptive Learning Paths** — Personalized study sequences generated from assessment scores
 
-Backend & Infrastructure
-Base44 Platform - Backend-as-a-Service with built-in auth, database, and functions
+- **Prerequisite Dependency Trees** — Visual interactive graphs showing required knowledge chains
 
-Stripe - Payment processing and subscription management
+- **Mastery Tracking** — 0–100% mastery scale tracked per mathematical concept across 100+ prerequisites
 
-Deno Functions - Serverless backend functions
+- **Estimated Study Hours** — Realistic time-to-mastery estimates per concept
 
-Entity System - NoSQL-style data modeling with JSON schemas
+- **Curated Resource Lists** — Papers, textbooks, and exercises recommended per prerequisite
 
-AI & LLM Integration
-OpenAI Integration - GPT-4 models for mathematical reasoning
+- **Multi-Status Tracking** — Track each concept as: `not_started` → `in_progress` → `reviewing` → `mastered`
 
-Web Search Context - LLM with real-time internet access for research
+---
 
-Vision Models - Support for image/diagram analysis
+### 📊 Progress Dashboard
 
-Structured Output - JSON schema-based responses for consistency
+- **Personal Stats Overview** — Track total workspaces, mastered prerequisites, hours studied, and active approaches
 
-🧠 Prompt Engineering & AI Architecture
-Validation Prompt Strategies
-Contextual Validation - Prompts include problem context, previous steps, and justifications
+- **Workspace History** — Save, name, and revisit unlimited proof attempts *(Standard/Pro)*
 
-Multi-Criteria Analysis - Validates logical consistency, mathematical correctness, theorem usage, and reasoning gaps
+- **Status Labels** — Mark approaches as `draft`, `promising`, `blocked`, or `abandoned`
 
-Structured JSON Responses - Forces LLM to return validation_status, explanation, issues, and suggestions
+- **Onboarding Flow** — Goal-based classification: *Learner* vs. *Prize Solver* with tailored plans
 
-Domain-Specific Instructions - Prompts identify as "rigorous mathematical validator" to set proper tone
+---
 
-Learning Path Generation
-Assessment-Based Adaptation - Analyzes quiz results to determine knowledge level
+## 🤖 AI & Prompt Engineering
 
-Dependency Resolution - AI generates learning sequences respecting prerequisite chains
+---
 
-Resource Curation - LLM suggests papers, textbooks, and exercises for each concept
+### Techniques Employed
 
-Progress Tracking - Continuous adaptation based on user mastery levels
+1. **Role Assignment Priming**
+   - Prompts open with: *"You are a rigorous mathematical validator..."* to set domain authority and precision tone
 
-Consistency Checking (Pro Feature)
-Historical Context - Analyzes all previous workspace steps for contradictions
+2. **Full Context Injection**
+   - Every validation prompt includes: problem name, problem description, all prior steps, and current justification — preventing hallucination by providing ground truth
 
-Logical Conflict Detection - Identifies statements that contradict earlier claims
+3. **Structured JSON Schema Output**
+   - All LLM responses are forced into predefined JSON schemas:
+     ```json
+     {
+       "validation_status": "valid | invalid | needs_review",
+       "explanation": "string",
+       "issues": ["string"],
+       "suggestions": ["string"]
+     }
+     ```
+   - Eliminates parsing failures and ensures consistent downstream processing
 
-Iterative Review - Runs on each new step to maintain proof integrity
+4. **Chain-of-Thought Reasoning**
+   - Multi-criteria validation prompts direct the model to reason sequentially through logical consistency → theorem correctness → gaps → boundary conditions
 
-Explanatory Feedback - Provides detailed reasoning about detected conflicts
+5. **Socratic Constraint Prompting**
+   - Hint prompts explicitly instruct: *"Do not give away the answer directly — ask questions that redirect thinking"* — enforcing pedagogical discipline
 
-Process Flow Analysis
-Comparative Analysis - LLM compares user approach vs. standard textbook methods
+6. **Comparative Baseline Analysis**
+   - Process flow prompts compare user approach against *"standard textbook methods"* and *"known prerequisite requirements"* to surface non-obvious gaps
 
-Gap Identification - Detects missing prerequisites or knowledge gaps
+7. **Severity Classification Prompting**
+   - Issues are forced into `minor | moderate | critical` tiers for prioritized remediation
 
-Wikipedia Link Generation - Automatically suggests learning resources
+8. **Resource Generation via Web Context**
+   - `add_context_from_internet: true` flag enables real-time Wikipedia and academic resource lookup during analysis
 
-Severity Classification - Categorizes issues as minor, moderate, or critical
+9. **Automated Formalization**
+   - Quantification prompts convert informal language to symbolic notation with explicit quantifier binding
 
-📊 Business Intelligence & Analytics
-User Segmentation
-Goal-Based Onboarding - Users classified as "learners" or "prize solvers"
+10. **Contradiction Detection Across Memory**
+    - Pro consistency checks maintain full proof state context to detect logical conflicts that span non-adjacent steps
 
-Subscription Tier Tracking - Monitor feature adoption across free/standard/pro
+---
 
-Engagement Metrics - Track workspace creation, validation usage, learning path completion
+## 💳 Subscription Tiers
 
-Conversion Funnel
-Landing → Problem Browse (Public)
-Problem Detail → Sign Up
-Free Tier → Create Workspace
-Workspace Limit Hit → Upgrade Prompt
-AI Feature Request → Standard/Pro Upgrade
-Revenue Optimization
-Tiered Pricing Strategy - 3-tier model ($0, $29.99, $100) with clear value progression
+---
 
-Feature Gating - AI features locked behind paid tiers to drive conversions
+| Feature | 🔹 Free | ⚡ Standard ($29.99/mo) | 👑 Pro ($100/mo) |
+|---|---|---|---|
+| Browse Problems | ✅ | ✅ | ✅ |
+| Visualizations | ✅ | ✅ | ✅ |
+| Workspace Entries | 5 max | Unlimited | Unlimited |
+| AI Step Validation | ❌ | ✅ | ✅ |
+| AI Hints | ❌ | ✅ | ✅ |
+| Quantitative Analysis | ❌ | ✅ | ✅ |
+| Learning Paths | ❌ | ✅ | ✅ |
+| Export Conclusions | ❌ | ✅ | ✅ |
+| Contradiction Detection | ❌ | ❌ | ✅ |
+| Cross-Step Validation | ❌ | ❌ | ✅ |
+| Process Flow Analysis | ❌ | ❌ | ✅ |
+| Priority AI Processing | ❌ | ❌ | ✅ |
 
-Workspace Limits - Free tier capped at 5 entries to encourage upgrades
+---
 
-Pro Exclusive - Consistency checking as premium differentiator
+## 🛠️ Tech Stack
 
-Retention Mechanisms
-Progress Tracking - Sunk cost fallacy from logged learning hours
+---
 
-Saved Workspaces - Users invested in their proof attempts
+### Frontend
 
-Learning Paths - Long-term engagement through structured curricula
+| Technology | Purpose | Version |
+|---|---|---|
+| ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) | UI Framework | 18.2 |
+| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) | Type Safety | Latest |
+| ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white) | Styling | Latest |
+| ![Framer](https://img.shields.io/badge/Framer_Motion-FF0055?logo=framer&logoColor=white) | Animations | 11.x |
+| ![Radix UI](https://img.shields.io/badge/Radix_UI-111827?logo=radixui) | Accessible Components | Latest |
+| ![TanStack](https://img.shields.io/badge/TanStack_Query-FF4154?logo=reactquery&logoColor=white) | Server State | 5.x |
+| ![React Router](https://img.shields.io/badge/React_Router-CA4245?logo=reactrouter&logoColor=white) | Client Routing | 6.x |
+| ![Three.js](https://img.shields.io/badge/Three.js-000000?logo=threedotjs) | 3D Graphics | Latest |
+| ![Recharts](https://img.shields.io/badge/Recharts-22C55E) | Data Charts | Latest |
 
-Community Validation - AI feedback creates sense of progress
+---
 
-🔐 Authentication & Authorization
-Email/Password Auth - Standard authentication via Base44
+### Backend & Services
 
-Role-Based Access - Admin vs. regular user permissions
+| Technology | Purpose |
+|---|---|
+| ![Base44](https://img.shields.io/badge/Base44-Backend_as_a_Service-8B5CF6) | Database, Auth, Serverless Functions |
+| ![Stripe](https://img.shields.io/badge/Stripe-635BFF?logo=stripe&logoColor=white) | Payments, Webhooks, Subscription Management |
+| ![Deno](https://img.shields.io/badge/Deno-000000?logo=deno) | Serverless Function Runtime |
+| ![OpenAI](https://img.shields.io/badge/GPT--4-10b981?logo=openai&logoColor=white) | AI Validation, Learning Path Generation |
 
-Subscription-Based Features - Tier checking on AI endpoints
+---
 
-Session Management - JWT-based authentication
+## 🗃️ Data Models
 
-🎨 UI/UX Design Patterns
-Design System
-Gradient Accents - Problem difficulty represented by color gradients
+---
 
-Icon System - Lucide React icons for consistent visual language
+### Core Entities
 
-Card-Based Layouts - Information hierarchy through elevation
+- **`Problem`** — Millennium problem definitions, formal statements, field, difficulty rank, techniques, prerequisites
 
-Responsive Design - Mobile-first approach with Tailwind breakpoints
+- **`Prerequisite`** — Mathematical concepts with dependency chains, difficulty levels (1–10), estimated study hours, and problem unlock mappings
 
-Loading States - Skeleton screens and spinners for async operations
+- **`Technique`** — Proof techniques categorized as: `proof_method`, `construction`, `reduction`, `approximation`, `invariant`, `barrier`
 
-Toast Notifications - Non-intrusive feedback with Sonner library
+- **`WorkspaceEntry`** — User proof attempts with ordered steps, justifications, validation status, and AI feedback per step
 
-Accessibility
-Radix UI Primitives - WAI-ARIA compliant components
+- **`ValidationLog`** — Full audit trail of AI validation events including type, result, explanation, and suggestions
 
-Keyboard Navigation - Full keyboard support for all interactions
+- **`UserProgress`** — Per-user mastery tracking with hours spent, last studied date, status, and key insights
 
-Focus Management - Clear focus indicators throughout
+- **`LearningPath`** — AI-generated study sequences with assessment scores, knowledge level, learning steps, recommended papers, and progress tracking
 
-Screen Reader Support - Semantic HTML and ARIA labels
+- **`User`** *(extended)* — Built-in auth entity extended with `subscription_tier` field (`free | standard | pro`)
 
-📈 Key Performance Metrics
-Engagement Metrics
-Workspace creation rate
-AI validation requests per user
-Learning path completion rate
-Average session duration
-Prerequisite mastery progression
-Conversion Metrics
-Free → Standard conversion rate
-Standard → Pro upgrade rate
-Subscription churn rate
-Feature adoption by tier
-Time to first upgrade
-Quality Metrics
-AI validation accuracy (user feedback)
-Workspace completion rate
-Export feature usage
-Learning path effectiveness
-User retention cohorts
-🔄 Data Models
-Core Entities
-Problem - Millennium problem definitions with metadata
+---
 
-Prerequisite - Mathematical concepts with dependency trees
+## 📈 Business Intelligence
 
-Technique - Proof techniques and methodologies
+---
 
-WorkspaceEntry - User proof attempts with steps
+### Conversion Funnel Design
 
-ValidationLog - AI validation history
+1. **Discovery** → Public problem browsing (no auth required)
 
-UserProgress - Learning mastery tracking
+2. **Activation** → Sign-up triggered by locked features (AI validation, workspace limit)
 
-LearningPath - Personalized study sequences
+3. **Engagement** → Free tier creates sunk cost via saved workspaces and tracked prerequisites
 
-User - Extended with subscription_tier field
+4. **Conversion** → Upgrade prompts surface exactly when free limits are hit
 
-🚀 Advanced Features
-Admin Dashboard
-Stripe connection status verification
-User subscription management
-Manual tier changes
-System health monitoring
-Export System
-Markdown report generation
-Process flow analysis inclusion
-Wikipedia learning resources
-Validation results compilation
-Real-Time Features
-Live progress updates
-Subscription status syncing via Stripe webhooks
-Session management
-🎓 Prompt Engineering Techniques Used
-Role Assignment - "You are a rigorous mathematical validator"
+5. **Retention** → Long-form learning paths and incomplete proof attempts create return visits
 
-Context Injection - Full problem description + previous steps
+6. **Expansion** → Pro tier upsell triggered by Standard users hitting contradiction detection walls
 
-Output Structuring - JSON schemas force consistent responses
+---
 
-Few-Shot Learning - Implicit through detailed instructions
+### Revenue Strategy
 
-Chain-of-Thought - Multi-step reasoning prompts
+- **Freemium Acquisition** — Free tier lowers barrier to entry, drives organic growth
 
-Constraint Setting - Explicit criteria (logical consistency, correctness, gaps)
+- **Feature Gating** — AI features gated to avoid commodity positioning vs. raw ChatGPT usage
 
-Socratic Method - Hint system asks questions rather than giving answers
+- **Workspace Limits** — Hard cap at 5 entries creates natural upgrade moment at peak engagement
 
-Comparative Analysis - User approach vs. standard methods
+- **Pro Exclusivity** — Contradiction detection is a genuine technical differentiator unavailable in Standard
 
-Resource Generation - Automated Wikipedia link suggestions
+- **Market Positioning** — Targets PhD students, researchers, and mathematical hobbyists — high willingness-to-pay segments
 
-Severity Classification - Structured issue categorization
+- **Pricing Psychology** — $29.99 anchors Standard as affordable; $100 Pro signals serious professional tooling
 
-💡 Business Intelligence Insights
-Freemium Model - Free tier drives user acquisition, paid tiers monetize power users
+---
 
-AI as Premium - Advanced AI features justify $100/month Pro tier
+### Retention Mechanisms
 
-Academic Market - Target researchers, PhD students, mathematicians
+- **Progress Sunk Cost** — Tracked mastery hours and learning paths encourage return visits
 
-Long-Term Value - Problems unsolved for decades = sustained engagement
+- **Proof Investment** — Multi-step workspaces with AI feedback create emotional investment in specific approaches
 
-Network Effects - Success stories attract more researchers
+- **Long Horizon Problems** — Millennium Problems unsolved for decades mean no user "completes" the platform
 
-Data Moat - Accumulated validation data improves AI models over time
+- **Export Lock-In** — Research conclusion exports are tied to active subscriptions
 
-📝 License & Attribution
-Built with Base44 platform. Mathematical problem descriptions from Clay Mathematics Institute.
+---
+
+## 🎨 UI/UX Design System
+
+---
+
+- **Color Language** — Difficulty represented via purple→red gradient; fields mapped to distinct icon+color pairs
+
+- **Card Elevation** — Information hierarchy via shadow depth (`shadow-sm` → `shadow-lg`)
+
+- **Responsive Layouts** — Mobile-first grid breakpoints (`sm:`, `md:`, `lg:`) throughout
+
+- **Animation Philosophy** — Framer Motion used for mount/unmount transitions, never decorative-only
+
+- **Loading States** — Skeleton loaders and spinners for all async operations — no blank screens
+
+- **Toast Notifications** — Sonner library for non-blocking feedback on save/validate/export
+
+- **Accessible Primitives** — All interactive elements built on WAI-ARIA compliant Radix UI components
+
+- **Gradient Accents** — Brand identity maintained via `from-indigo-500 via-purple-500 to-pink-500` system
+
+---
+
+## 🔐 Auth & Security
+
+---
+
+- **JWT Authentication** — Session management via Base44 platform
+
+- **Role-Based Access Control** — `admin` vs `user` roles with protected routes and admin-only backend functions
+
+- **Subscription Enforcement** — Tier checked server-side on every AI-gated API call — cannot be bypassed client-side
+
+- **Stripe Webhook Verification** — Async signature validation using `constructEventAsync` for Deno compatibility
+
+- **Service Role Separation** — Admin operations use elevated `base44.asServiceRole` — never exposed to frontend
+
+---
+
+<div align="center">
+
+**Built with Base44 · Powered by GPT-4 · Problems sourced from [Clay Mathematics Institute](https://www.claymath.org/millennium-problems)**
+
+*"The formulation of a problem is often more essential than its solution."* — Albert Einstein
+
+</div>
 
 https://the-millennium-pursuer-beb186a2.base44.app
+
